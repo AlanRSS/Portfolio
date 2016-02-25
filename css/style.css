@@ -1,0 +1,73 @@
+body{
+	font-family: 'Poiret One', cursive;
+	color: #FFF;
+}
+@media only screen and (min-width : 500px){
+
+body{
+	background-image: url("resources/universe.jpg");
+	opacity: 0.9;
+}
+#container{
+
+	max-width: 1366px;
+	height: 1200px; 
+	background-color: #031634;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+#menu{
+	background-color: #FFF;
+
+	display: flex;
+
+}
+.spbutton{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CDB380;	
+	min-width: 100px;
+	text-align: center;
+}
+.spbutton:active{
+	background-color: #E8DDCB;
+	border: 5px  #CDB380;
+}
+.col-1{
+	width: 25%;
+}
+.col-2{
+	width: 50%; 
+}
+.col-3{
+	width: 75%;
+}
+.col-4{
+	width: 100%;
+}
+#painel{
+height: inherit;
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+
+}
+.clicked{
+	background-color: #523A3E;
+}
+.image{
+	border-radius: 30px;
+	height:300px;
+}
+.aladin{
+	width: 700px;
+	border: 5px white;
+	border-radius: 100%;
+
+
+}
+.panel_header{
+	text-align: center;
+}
+}
