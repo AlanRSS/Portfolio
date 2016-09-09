@@ -1,36 +1,105 @@
- .background{
-     /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -2;
- }
- @media screen and (min-width:767px) {
-     .navigation{
-         position: relative;
-         height: 100%;
-         display: center;
-         align-items: center; 
-     }
-     .nav{
-         position: absolute;
-         top: 50%
-     }
-     body{
+html,
+body {
+    height: 100%;
+    font-family: OpenSans !important;
+    color: #fff !important;
+    font-size: 18px !important;
+}
 
-         min-height: 100%;
-         height: auto;
-     }
- }
-.navigation{
-    background-color: #fff;
+.background {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+@font-face{
+	font-family: OpenSans;
+	src:url('fonts/OpenSans-Light.ttf');
+}
+@font-face{
+	font-family: OpenSansI;
+	src:url('fonts/OpenSans-Italic.ttf');
+}
+@font-face{
+	font-family: Dosis-Light;
+	src:url('fonts/Dosis-Light.ttf');
+}
+@media screen and (min-width:767px) {
+    html{
+        font-size: 18px;
+    }
+    .portrait{
+        width: 200px;
+        margin: auto;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .menu {
+        background-color: rgba(0, 0, 0, 0.95);
+        padding: 50px !important;
+        font-size: 18px;
+        list-style: none;
+    }
+    .menu li {
+        padding: 15px;
+    }
+    .menu-items {
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    .corpo {
+        height: 100%;
+    }
+    .board {
+        background-color: rgba(0, 0, 0, 0.95);
 
+        padding: 10px;
+        height: 100%;
+         color: #fff;
+         overflow-y: auto;
+         
+         overflow-x: hidden;
+    }
+    .box{
+        padding: 20px;
+    }
+    
+}
+.name{
+    text-align: center;
+    font-family: Dosis-Light;
+    font-size: 60px;
+    color: #fff;
+}
+.menu>li:hover{
+    background-color: #9a2727;
+    cursor: pointer;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.menu-items:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.skill{
+    max-width: 100px;
+    width: 100%;
+}
+.gray{
+    color: #9a2727;
+}
+.projectos{
+    max-width: 350px;
 }

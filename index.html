@@ -1,31 +1,175 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">  
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Portfolio</title>
     <script src="scripts/jquery-2.1.3.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
 </head>
 
 <body>
-        <img class="background" src="resources/pic.jpg" alt="">
-        
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 navigation">
-            <ul class="nav nav-pills nav-stacked">
-            <li><a>Navigation</a></li>
-            <li><a>bio</a></li>
-            <li><a>skills</a></li>
-            <li><a>education</a></li>
-            <li><a>work</a></li>
-            <li><a>projects</a></li>
-            </ul>
-        </div>      
-    
+    <img class="background" src="resources/pic2.jpg" alt="">
+
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 navigation">
+        <ul class="menu">
+            <div><label>NAVIGATION</label></div>
+            <hr />
+            <li><a class="menu-items">Bio</a></li>
+            <li><a class="menu-items">Skills</a></li>
+            <li><a class="menu-items">Education</a></li>
+            <li><a class="menu-items">Work</a></li>
+            <li><a class="menu-items">Projects</a></li>
+        </ul>
+    </div>
+
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10 corpo">
+        <div class="board">
+            <div class="Bio" hidden>
+
+                <div class="row name">
+
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 text-center box">
+                        <img src="resources/Me.jpg" class="img-responsive portrait" alt="Me">
+                        <h2>Hey I'm Alan!</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+                        <div class="text-justify box">
+                            I'm a young man that believes on a growth mind set, I dont define myself because I see definition as a chain that sets us on a constant state, I rather see myself as an open person for change
+                            <p style="font-family: OpenSansI;">"Everything that is really great and inspiring is created by the individual who can labor in freedom." - Albert Einstein</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Date of Birth</h3>
+                                <p> 06/11/1993</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Profession</h3>
+                                <p> Developer & Enterprise Architect</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Nationalities</h3>
+                                <p> Angolan, Portuguese</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Telephone</h3>
+                                <p> +244923747301</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Email</h3>
+                                <p> alanrss_1@hotmail.com</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center box">
+                                <h3>Adress</h3>
+                                <p>Luanda-Angola</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="Skills">
+                <div class="row box">
+                    <h2>Skills at a Glance!</h2>
+                </div>
+                <hr />
+                <h3>Programming Languages</h3>
+                <img src="resources/c.png" alt="Bootstrap" class="skill">
+                <img src="resources/triforce.png" alt="Bootstrap" class="skill" style="background-color: #fff">
+                <hr />
+                <h3>MVC</h3>
+                <img src="resources/ko.png" alt="Bootstrap" class="skill">
+                <img src="resources/ajs.png" alt="Bootstrap" class="skill">
+                <hr />
+                <h3>Dependency Injection & Automation</h3>
+                <img src="resources/Bower.png" alt="Bootstrap" class="skill">
+                <img src="resources/Gulp.png" alt="Bootstrap" class="skill">
+                <hr />
+                <h3>Front-end Responsive Framework</h3>
+
+                <img src="resources/BS.png" alt="Bootstrap" class="skill">
+                <hr />
+                <h3>Version Control</h3>
+
+                <img src="resources/Octocat.png" alt="Bootstrap" class="skill">
+                <hr />
+                <h3>DBM</h3>
+
+                <img src="resources/sql.png" alt="Bootstrap" class="skill">
+
+            </div>
+
+            <div class="Work">
+                <div class="row box">
+                    <h2>Work Experience</h2>
+                </div>
+                <hr />
+                <h3>Microsoft</h3>
+                <h4 class="gray">Retail Sales Specialist</h4>
+                <p>Help partners on the retail setting on how to drive sales processes and also support them on initiatives that facilitate or improve the impact of the brand on the retail ecosystem.
+                </p>
+                <hr />
+                <h3>Banco Nacional de Angola(Current)</h3>
+                <h4 class="gray">Enterprise Architect</h4>
+                <p>Haven an holistic view of the state of the enterprise spanning through the business dimension to the tecnology dimension, create and promote initiatives that enhance and strengthen the instituition, advise the head of the IT department
+                    on the decision making process.</p>
+            </div>
+            <div class="Education">
+                <div class="row box">
+                    <h2>Education</h2>
+                </div>
+                <hr />
+                <h3>High School</h3>
+                <h4 class="gray">Colégio 1,2,3</h4>
+                <hr />
+                <h3>Academic English</h3>
+                <h4 class="gray">WITS Language school</h4>
+                <hr />
+                <h3>BSC in Computer Systems</h3>
+                <h4 class="gray">Heriot Watt University</h4>
+                <hr />
+                <h3>Front-end Web Development Nanodegree</h3>
+                <h4 class="gray">Udacity</h4>
+                <hr />
+                <h3>CS50 Web(Current)</h3>
+                <h4 class="gray">Harvard, EDX</h4>
+                <hr />
+                <h3>CISA Exam Prep Trainning</h3>
+                <h4 class="gray">ISACA</h4>
+                <hr />
+            </div>
+            <div class="Projects">
+                <div class="row box">
+                    <h2>Projects</h2>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+
+
+                    <h3>Cria Comigo</h3>
+                    <img src="resources/cria.png" alt="" class="projectos">
+                    <h4>Initiative that took programming to the private and public K12 schools in Angola; role: Image Development and Lecturer</h4>
+                </div>
+                <div bs3co>
+                    <h3>PSLI</h3>
+                    <img src="resources/psli.png" alt="" class="projectos">
+                    <h4>Logo Creation</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
