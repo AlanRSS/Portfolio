@@ -21,6 +21,26 @@ body {
 .black{
     background: rgba(0,0,0, 0.78)
 }
+.Gate1{
+     min-height: 100%;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    background-color: rgba(0, 0, 0, 1)
+}
+.Gate2{
+     min-height: 100%;
+    width: 50%;
+    height: auto;
+     position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 300;
+    background-color: rgba(0, 0, 0, 1)
+}
 
 .layer {
     min-height: 100%;
