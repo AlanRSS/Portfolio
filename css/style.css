@@ -5,7 +5,29 @@ body {
     color: #fff !important;
     font-size: 18px !important;
 }
+.crimson{
+    
+    background: #994242;
+    box-shadow: 3px 3px 5px #000;
 
+}
+ .box {
+        padding: 20px;
+    }
+.black{
+    background: rgba(0,0,0, 0.78)
+}
+
+.layer {
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.33)
+}
 .background {
     /* Set rules to fill background */
     min-height: 100%;
@@ -19,25 +41,97 @@ body {
     left: 0;
     z-index: -2;
 }
-@font-face{
-	font-family: OpenSans;
-	src:url('fonts/OpenSans-Light.ttf');
+
+.skill
+
+.menu>li{
+    cursor: pointer;
 }
-@font-face{
-	font-family: OpenSansI;
-	src:url('fonts/OpenSans-Italic.ttf');
+.menu>li:hover {
+    background-color: #9a2727;
+    cursor: pointer;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
 }
-@font-face{
-	font-family: Dosis-Light;
-	src:url('fonts/Dosis-Light.ttf');
+
+.menu-items:hover {
+    text-decoration: none;
+    color: #fff;
 }
-@media screen and (min-width:767px) {
-    html{
-        font-size: 18px;
-    }
-    .portrait{
+
+.skill {
+    max-width: 100px;
+    width: 100%;
+}
+
+.gray {
+    color: #9a2727;
+}
+.portrait {
         width: 200px;
         margin: auto;
+        border: 8px solid #fff;
+        box-shadow: 4px 5px 30px #000;
+    }
+
+.projectos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    max-width: 350px;
+    transition: 1s all;
+}
+.Education{
+    background: black;
+}
+
+.active{
+     background-color: #9a2727 !important;
+}
+.board {
+        
+        padding: 20px;
+        height: 100%;
+        color: #fff;
+    }
+
+@font-face {
+    font-family: OpenSans;
+    src: url('fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: Press;
+    src: url('fonts/PressStart2P-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSansI;
+    src: url('fonts/OpenSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: Dosis-Light;
+    src: url('fonts/Dosis-Light.ttf');
+}
+@media screen and (max-width:766px) {
+
+    .bigmenu{
+        display: none;
+    }
+    .name {
+    text-align: center;
+    font-size: 18x;
+}
+}
+
+
+@media screen and (min-width:767px) {
+   .mynav{
+       display: none;
+   }
+    html {
+        font-size: 18px;
     }
     .navigation {
         display: flex;
@@ -55,51 +149,15 @@ body {
     }
     .menu-items {
         color: #fff;
-        padding-bottom: 20px;
+        padding-bottom: 16px;
     }
     .corpo {
         height: 100%;
     }
-    .board {
-        background-color: rgba(0, 0, 0, 0.95);
-
-        padding: 10px;
-        height: 100%;
-         color: #fff;
-         overflow-y: auto;
-         
-         overflow-x: hidden;
-    }
-    .box{
-        padding: 20px;
-    }
-    
-}
-.name{
+    .name {
     text-align: center;
-    font-family: Dosis-Light;
-    font-size: 60px;
-    color: #fff;
+    font-size: 18px;
 }
-.menu>li:hover{
-    background-color: #9a2727;
-    cursor: pointer;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.menu-items:hover{
-    text-decoration: none;
-    color: #fff;
-}
-.skill{
-    max-width: 100px;
-    width: 100%;
-}
-.gray{
-    color: #9a2727;
-}
-.projectos{
-    max-width: 350px;
+    
+   
 }
